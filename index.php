@@ -50,7 +50,7 @@ $query = "SELECT * from place_to_visit";
 
 </div>
 
-<div class="container-fluid " style="background-color:#8acbed ;" >
+<div class="container " >
   <div class="row">
     <div class="col-9">
       <div class="row">
@@ -72,7 +72,7 @@ foreach ($db->query($query) as $row)
     <div class="col-3 ">
      <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" >
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <a class="btn btn-outline-success" type="submit" href="index.php?value=2">Search</a>
       </form>
     </div>
     
